@@ -39,8 +39,6 @@ async function loadProducts() {
         const items = data.result.elements;
         const container = document.querySelector('.products');
 
-        console.log(data);
-
         items.forEach((item) => {
             const card = document.createElement('div');
             card.classList.add('product-card');
